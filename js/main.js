@@ -559,7 +559,7 @@ $(document).ready(function(){
 				$(this).parent().children(".reserveCnt").html(cnt);
 				var total = Number(uncomma($("#ticketTotalPrice").html()));
 				$("#ticketTotalPrice").html(comma(total - price));
-			})k
+			})
 			/*
 				17. 예매화면 선택
 				(1)0을 변수에 담는다
